@@ -1,0 +1,37 @@
+.left_nav{
+    background-color: $secondary-color;
+    min-height: 60vh;
+    flex: 1;
+    margin: 20vh 0 5vw 0;
+    border:2px solid $border-color;
+    padding: 10px;
+    .nav_title{
+        font-size: 2rem;
+        font-weight: 700;
+        padding: .7rem;
+        background-color: lighten($secondary-color,2);
+        border-left: 1.5vw solid darken($primary-color,2);
+        border-right: 1.5vw solid darken($primary-color,2);
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .tag_list{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 2rem;
+        font-weight: 700;
+        align-items: center;
+        .tag_item{
+            font-size: 20px;
+            padding: 8px;
+            border-radius: 5px;
+            margin: 10px;
+            font-weight: 500;
+            background-color: $special-back-color;
+            a{
+                text-decoration: none;
+                color:$font-secondary-color;
+            }
+        }
+    }
+}

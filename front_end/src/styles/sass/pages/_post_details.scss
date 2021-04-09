@@ -1,0 +1,69 @@
+.post_details{
+    font-family: 'Montserrat', sans-serif;
+    padding: 6% 2%;
+    margin: 2% 0;
+    font-size: 20px;
+    font-weight: 400;
+    background-image: linear-gradient(to bottom,rgb(255, 255, 255),$primary-color,rgb(255, 255, 255));
+    &__primary{
+        margin: 3rem 0;
+        border:2px solid $border-color;
+        box-shadow: 2px 0 8px $shadow-color;
+        padding: 10px;
+        background-color: $secondary-color;
+    }
+    &__info{
+        .author_date{
+            padding: 1%;
+            font-weight: 500;
+            .date{
+                color: $font-primary-color;
+                border: $border-color solid 2px;
+                padding: 10px;
+                margin-left: 3%;
+                border-radius: 5px;
+                display: inline-block;
+                    span {
+                        font-size: 30px;
+                        color: $font-primary-color;
+                        margin-right: 10px;
+                    }
+            }
+            h1{
+                font-size: 2rem;
+                padding: 2% 3%;
+                color: darken($font-secondary-color,2);
+                display: inline-block;
+                border-radius: 20px;
+                background-color: $special-back-color;
+            } 
+        }
+        .email{
+            font-size: 1.5rem;
+            padding: 2%;
+            color: rgba($font-primary-color,.5)
+        }
+    }
+    &__title{
+        padding: 2%;
+        font-size: 30px;
+        font-weight: 700;
+        color: $title-color;
+
+    }
+    &__body{
+        padding: 3%;
+        font-size: 20px;
+        font-weight: 500;
+        color: $font-primary-color;
+        border: $border-color 2px solid;
+        margin-top: 20px;
+        border-radius: 5px;
+    }
+    &__tag-list{
+
+    }
+    &__comments{
+
+    }
+}

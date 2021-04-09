@@ -1,0 +1,57 @@
+
+.nav{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    font-size: 3rem;
+    font-weight: 700;
+    background-color: antiquewhite;
+    height: 130px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.616);
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    &__logo img{
+        margin-top: 8px;
+        width: 50px;
+    }
+    &__center{
+        flex-grow: 1;
+        display: flex ;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 50px;
+        font-size: 2rem;
+        font-weight: 500;
+        &__item{
+            margin: 20px;
+            a {
+                text-decoration: none;
+                color: rgb(87, 82, 75);
+                &:hover {
+                    color: rgb(233, 173, 89);
+                }
+            }
+        }
+    }
+    &__right{
+        flex-grow: 1;
+        display: flex ;
+        align-items: center;
+        justify-content: flex-end;
+        padding: 10px;
+        &__item{
+            margin: 15px;
+            a {
+                text-decoration: none;
+                color:rgb(87, 82, 75);
+                .fa {
+                    font-size: 3rem;
+                }
+                &:hover {
+                    color: rgb(233, 173, 89);
+                }
+            }
+        }     
+    }   
+}
+
